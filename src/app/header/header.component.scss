@@ -1,0 +1,98 @@
+.top-header {
+  display: flex;
+  padding: 0 8em;
+  justify-content: space-between;
+  height: 3em;
+  background-color: yellow;
+
+  .contact {
+    display: flex;
+    align-items: center;
+
+    .email {
+      padding-right: 0.8em;
+      .email-text {
+        padding: 0 0.4em;
+      }
+    }
+
+    .phone {
+      padding-left: 0.8em;
+      .phone-text {
+        padding: 0 0.4em;
+      }
+    }
+  }
+
+  .donate-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    height: 100%;
+    padding: 0 1.4em;
+    cursor: pointer;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fefefe;
+  height: 5em;
+  padding: 0 8em;
+
+  .logo {
+    width: 250px;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      margin-left: 1.6em;
+      padding: 0 .6em;
+      height: 100%;
+      border-bottom: solid 4px transparent;
+
+      &:hover {
+        border-bottom: solid 4px #222;
+      }
+    }
+  }
+}
+
+.hero {
+  width: 100%;
+  height: 65vh;
+  background-image: url('https://www.buenosaires.gob.ar/sites/gcaba/files/field/image/box_3.jpg');
+  background-size: cover;
+
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 8em 6em;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-content {
+
+    .hero-title {
+      color: white;
+      font-size: 72pt;
+      text-transform: uppercase;
+    }
+
+    .hero-subtitle {
+      color: white;
+      font-size: 28pt;
+    }
+  }
+
+}
