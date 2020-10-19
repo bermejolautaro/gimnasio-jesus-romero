@@ -1,0 +1,130 @@
+.hero {
+  width: 100%;
+  height: 65vh;
+  background-image: url("https://www.buenosaires.gob.ar/sites/gcaba/files/field/image/box_3.jpg");
+  background-size: cover;
+
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 6em 6em;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-content {
+    .hero-title {
+      color: white;
+      font-size: 72pt;
+      text-transform: uppercase;
+    }
+
+    .hero-subtitle {
+      color: white;
+      font-size: 28pt;
+    }
+  }
+}
+
+.mision {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4em 5em;
+
+  .mision-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 28pt;
+    flex: 0 0 100%;
+    margin-bottom: 0.8em;
+  }
+
+  .mision-content {
+    width: 50%;
+    padding-right: 3em;
+
+    .mision-text {
+      line-height: 1.6em;
+      font-size: 15pt;
+      margin-bottom: 3em;
+    }
+
+    .mision-read-more {
+      font-size: 14pt;
+      padding: 0.8em 1.6em;
+      background-color: #222;
+      color: white;
+    }
+  }
+
+  .mision-picture {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.reconocimientos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 4em 5em;
+  background-color: #eceef0;
+
+  .reconocimientos-title {
+    display: flex;
+    flex-direction: column;
+    font-size: 28pt;
+    flex: 0 0 100%;
+    margin-bottom: 1.4em;
+  }
+}
+
+.divisor {
+  width: 60px;
+  height: 6px;
+  margin-top: 0.2em;
+  background-color: #222;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  width: 350px;
+
+  .card-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    height: 100%;
+    .card-title {
+      font-size: 18pt;
+      margin-bottom: 0.4em;
+    }
+
+    .card-text {
+      font-size: 12pt;
+      margin-bottom: 2.5em;
+    }
+
+    .card-read-more {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      width: 100%;
+      text-align: right;
+    }
+  }
+
+  .card-picture {
+    img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+}

@@ -61,6 +61,11 @@
       height: 100%;
       border-bottom: solid 4px transparent;
 
+      &.active {
+        border-bottom: solid 4px #222;
+
+      }
+
       &:hover {
         border-bottom: solid 4px #222;
       }
@@ -68,31 +73,5 @@
   }
 }
 
-.hero {
-  width: 100%;
-  height: 65vh;
-  background-image: url('https://www.buenosaires.gob.ar/sites/gcaba/files/field/image/box_3.jpg');
-  background-size: cover;
 
-  .hero-overlay {
-    background-color: rgba(0, 0, 0, .5);
-    padding: 8em 6em;
-    width: 100%;
-    height: 100%;
-  }
 
-  .hero-content {
-
-    .hero-title {
-      color: white;
-      font-size: 72pt;
-      text-transform: uppercase;
-    }
-
-    .hero-subtitle {
-      color: white;
-      font-size: 28pt;
-    }
-  }
-
-}
